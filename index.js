@@ -6,10 +6,13 @@ import {
     Route,
     Routes
 } from "react-router-dom";
+// ROUTES
 import App from './App';
-import Login from"./routes/login"
-import Registro from"./routes/registro"
 import NotFound from './components/Error404';
+import Login from"./routes/login"
+import Registro from "./routes/crear_cuenta"
+import Recuperar from "./routes/recuperar_contrasena"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +20,8 @@ root.render(
         <Routes>
             <Route path="/" element={<App />} />
                 <Route path="login" element={<Login />} />
-                <Route path="registro" element={<Registro />} />
+                    <Route path="crear_cuenta" element={<Registro />} />
+                    <Route path="recuperar_contrasena" element={<Recuperar />} />
 
                 {/* pagina no encontrada */}            
                 <Route path="*" element={<NotFound />} />
