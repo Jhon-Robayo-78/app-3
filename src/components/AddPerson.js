@@ -1,7 +1,14 @@
+import {Link} from "react-router-dom"
+
 function AddPerson(){
     return(
-        <div className="Add-person">
-            <button type="button" className="btn btn-primary mb-2">+ Agregar Entrada </button>
+        <div className="Contenedor">
+            <div className="entradaVehiculo">
+                <Link className="btn btn-primary" to="/AddEntrada" role="button">agregar entrada</Link>
+            </div>
+            <div className="Add-person">
+            <Link className="btn btn-primary" to="/Registro" role="button">+agregar nuevo usuario</Link>
+            </div>
         </div>
     );
 }

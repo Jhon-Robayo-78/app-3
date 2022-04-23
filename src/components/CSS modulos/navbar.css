@@ -1,0 +1,24 @@
+nav.navbar1 {
+    background-color: #4fff0f;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-item li{
+    display: inline;
+    text-align: center;
+    display: block;
+
+    float: left;
+
+    margin-left: 20px;
+}
+
+#nav-item li a{
+    font-size: 22px;
+    color:black;
+}
