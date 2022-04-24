@@ -6,7 +6,7 @@ import IndicadorHora from './IndicacionHora';
 
 class ListPerson extends React.Component{
     render(){
-        const {placa,nombre,entrada,salida,miembro}=this.props
+        const {id,nombre,apellido,cedula,email,numero,entrada,salida,placa}=this.props
         
         
         return(

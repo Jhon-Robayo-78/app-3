@@ -5,16 +5,7 @@ class Add extends React.Component{
         super(props)
 
     }
-/*
-    onChangeplaca =(e)=>{
-        if(this.state.u.filter(item => item.placa === e)===true){
-            console.log(e);
-        }
-        this.setState({placa:e.target.value});
-    }
-    onChangeentrada =(e)=>{
-        this.setState({entrada:e.target.value});
-    }   */
+    
     render(){
         return(
             <div className="input">
@@ -40,5 +31,3 @@ class Add extends React.Component{
 
 export default Add;
 
-//onChange={this.onChangeentrada.hora}
-//onChange={this.onChangeplaca}

@@ -1,27 +1,14 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import Footer from "../components/Footer.js"
+
 class Formulario extends React.Component{
-   /* state={
-        
-    }
-    handleSubmit = e =>{
-        e.preventDefault()
-        console.log(form)
-    }*/
-   /* handleChange = e =>{
-        let partialState={}
-        partialState[e.target.name]=e.target.value
-        this.setState(partialState)
-        /*form({
-            [e.target.name]:e.target.value      
-        })*/
-    //}
+   
     render(){
-        const {onChange, Form, onSubmit}=this.props
     return(
         <div className="container">
-            <h1>Creacion de Usuario</h1>
-        <form onSubmit={onSubmit}>    
+            
+            <h1>Registro</h1>
+        <form >    
             
             <div className="input">
                 <span className="input">Nombre</span>
@@ -29,9 +16,7 @@ class Formulario extends React.Component{
                     type="text"  
                     className="form-control" 
                     placeholder="nombre"
-                    name="nombre" 
-                    onChange={onChange} 
-                    value={Form.nombre}/>
+                    name="nombre" />
             </div>
             
             <div className="input">
@@ -40,9 +25,7 @@ class Formulario extends React.Component{
                     type="text"
                     className="form-control"
                     placeholder="apellido"
-                    name="apellido"
-                    onChange={onChange}
-                    value={Form.apellido}/>
+                    name="apellido"/>
             </div>
             
             <div className="input">
@@ -51,9 +34,7 @@ class Formulario extends React.Component{
                     type="text"
                     className="form-control"
                     placeholder="cedula"
-                    name="cedula" 
-                    onChange={onChange} 
-                    value={Form.cedula}/>
+                    name="cedula" />
             </div>
             
             <div className="input">
@@ -62,9 +43,7 @@ class Formulario extends React.Component{
                     type="text" 
                     className="form-control" 
                     placeholder="email" 
-                    name="email" 
-                    onChange={onChange} 
-                    value={Form.email}/>
+                    name="email" />
             </div>
             
             <div className="input">
@@ -73,24 +52,26 @@ class Formulario extends React.Component{
                     type="text" 
                     className="form-control" 
                     placeholder="numero" 
-                    name="numero" 
-                    onChange={onChange} 
-                    value={Form.numero}/>
+                    name="numero" />
+            </div>
+            <div className="input">
+                <span className="input">Placa</span>
+                <input 
+                    type="text" 
+                    className="form-control" 
+                    placeholder="placa" 
+                    name="placa"/>
             </div>
             <div>
                 <button type="submit" className="btn btn-primary"> Añadir </button>
             </div>
-            <div>
-                <Link className="btn btn-primary" role="button" to='/ListUsers' >Listado de usuarios</Link>
-            </div>
+           
 
         </form>
+        <Footer/>
         </div>
     );}
 
 }
 
 export default Formulario;
-
-//                    onChange={onChange} 
-//value={form.nombre}/>

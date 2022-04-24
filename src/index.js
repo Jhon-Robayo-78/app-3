@@ -13,7 +13,6 @@ import Login from"./routes/login"
 import Registro from "./routes/crear_cuenta"
 import Recuperar from "./routes/recuperar_contrasena"
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>

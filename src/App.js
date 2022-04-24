@@ -14,39 +14,29 @@ import Footer from "./components/Footer"
 //import NotFound from "./components/Error404";
 //import ListPerson from "./components/listPerson";
 
+const data =[
+  {id:1, nombre:'juan',apellido:'perez',cedula:'1323',email:'example@htmail.com',numero:'302',entrada:{hora:8,minutos:'30'},salida:{hora:14,minutos:'00'},placa:'k800j'},
+  {id:2, nombre:'jhon',apellido:'guzman',cedula:'548',email:'example2@htmail.com',numero:'301',entrada:{hora:7,minutos:'30'},salida:{hora:12,minutos:'00'},placa:'t1000'},
+  {id:3, nombre:'eliza',apellido:'trujillo',cedula:'852',email:'example3@htmail.com',numero:'305',entrada:{hora:11,minutos:'00'},salida:{hora:12,minutos:'10'},placa:'t800'},
+]
 class App extends React.Component {
-  constructor(props){
-    super(props)
-    this.state={
-      data: [{
-        placa:'132-htg',nombre:'juan',entrada:{hora:8,minutos:'30'},salida:{hora:14,minutos:'00'},MiembroU:true
-      },{
-        placa:'567-yot',nombre:'jhon',entrada:{hora:7,minutos:'30'},salida:{hora:12,minutos:'00'},MiembroU:true
-      },{
-        placa:'200-gfg',nombre:'alberto',entrada:{hora:11,minutos:'00'},salida:{hora:12,minutos:'10'},MiembroU:false
-      }],
-      form:[{nombre:'a',
-             apellido:'',
+
+  state={
+     Data:data,
+     modalActualizar: false,
+     modalInsertar: false,
+     form:[{id:0,
+            nombre:'',
+            apellido:'',
              cedula:'',
              email:'',
-             numero:''}]  
+             numero:'',
+            entrada:{hora:0,minutos:'00'},
+          salida:{hora:0,minutos:'00'},
+          placa:''}]  
     } 
-  }
+ 
   
-  handleChange = e =>{
-    /*let partialState={}
-    partialState[e.target.name]=e.target.value
-    this.setState(partialState)*/
-    this.setState({
-      form:{
-        ...this.state.form,
-        [e.target.name]:e.target.value   }   
-    })
-}
-handleSubmit = e =>{
-  e.preventDefault()
-  console.log(this.state.form)
-}
   
  
   render(){
@@ -72,4 +62,3 @@ handleSubmit = e =>{
 
 export default App;
 
-//            <Route exact path='/ListUsers' element={<ListPerson2/>}/>
