@@ -12,6 +12,8 @@ import NotFound from './components/Error404';
 import Login from"./routes/login"
 import Registro from "./routes/crear_cuenta"
 import Recuperar from "./routes/recuperar_contrasena"
+import ApartadoV from './routes/VistaVigilante';
+import  Notificacion  from './routes/Notificacion';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +23,8 @@ root.render(
                 <Route path="login" element={<Login />} />
                     <Route path="crear_cuenta" element={<Registro />} />
                     <Route path="recuperar_contrasena" element={<Recuperar />} />
+                    <Route path="ViewModeVi" element={<ApartadoV />} />
+                    <Route path="Notificaciones" element={<Notificacion />} />
 
                 {/* pagina no encontrada */}            
                 <Route path="*" element={<NotFound />} />
