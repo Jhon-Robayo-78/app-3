@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 //componentes
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 //import Search from "./components/Search";
 //import Inicio from "./components/Inicio";
 //import Filas from "./components/FilasItem";
@@ -52,15 +53,18 @@ handleSubmit = e =>{
     return (
         <div>
             <Navbar />
-            <h2>Index</h2>
-            <p>Con el uso del SCAV se ha mejorado la seguridad,
-                integridad y organizacion del campus de la Universidad
-                Tecnologica de Bolivar en cuanto al registro de vehiculos.
-                Con este sistema, y una base de datos con informacion detallada 
-                de cada vehiculo que sale y entra al campus, ademas de esto, es
-                posible encontrar estacionamientos libres y notificar al dueno
-                del vehiculo si es necesario.
-            </p>
+            <main>
+                <h2>Bienvenido al Sistema de Control de Acceso Vehicular</h2>
+                <p>Con el uso del SCAV se ha mejorado la seguridad,
+                    integridad y organizacion del campus de la Universidad
+                    Tecnologica de Bolivar en cuanto al registro de vehiculos.
+                    Con este sistema, y una base de datos con informacion detallada 
+                    de cada vehiculo que sale y entra al campus, ademas de esto, es
+                    posible encontrar estacionamientos libres y notificar al dueno
+                    del vehiculo si es necesario.
+                </p>
+            </main>
+            <Footer />
         </div>    
     );
   }
@@ -69,9 +73,3 @@ handleSubmit = e =>{
 export default App;
 
 //            <Route exact path='/ListUsers' element={<ListPerson2/>}/>
-
-
-
-
-
-    

@@ -1,0 +1,61 @@
+.inputForms {
+    margin-bottom: 0px;
+    padding-left: 15%;
+    padding-right: 60%;
+
+}
+
+.form-control {
+    width:300px;
+}
+
+.row {
+    min-width: 300px;
+}
+
+.btn-primary {
+    background-color: #1b7749;
+    border-color: forestgreen;
+}
+
+.btn-primary:hover {
+    background: #519774;
+    color: black;
+    border-color: black;
+}
+
+.mensaje {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-left: 15%;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 60%;
+    color: black;
+}
+
+.options > p {
+   
+}
+
+.crear {
+    padding-left: 40px;
+}
+
+.manualButton {
+    background-color: #1b7749;
+    border-radius: 4.5px;
+    border: none;
+    text-decoration: none;
+    margin-left: 135px;
+}
+
+.manualButton:hover {
+    background: #519774;
+    color: black;
+    border-color: black;
+}
