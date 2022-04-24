@@ -1,3 +1,7 @@
+body {
+    min-height: 100vh;
+}
+
 .AppContainer{
   background-color: rgba(53, 199, 0, 0.52);
 }
@@ -8,9 +12,11 @@ main{
 }
 
 
-h1{
-  text-align: center;
+h2{
+  padding: 5% 10% 0% 15%;
 }
 
 
-
+p {
+    padding: 5% 10% 0% 15%;
+}
