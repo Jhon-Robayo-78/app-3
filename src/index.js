@@ -15,6 +15,7 @@ import Recuperar from "./routes/recuperar_contrasena"
 import Vigilante from './routes/VistaVigilante';
 import Notificacion from './routes/Notificacion';
 import Controlador from "./routes/controlador"
+import UserUpdate from './routes/UpdateUser';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
                     <Route path="Vigilante" element={<Vigilante />} />
                     <Route path="Notificaciones" element={<Notificacion />} />
                     <Route path="Controlador" element={<Controlador />} />
+                    <Route path="ActualizacionUser" element={<UserUpdate />} />
 
 
                 {/* pagina no encontrada */}            

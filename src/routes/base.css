@@ -85,21 +85,11 @@
 
 .card.mixed {
     display: flex;
+    align-items: center;
 }
 
 
 .card-title {
     margin-left: 20px;
     margin-top: 20px;
-}
-
-.card-title.mixed {
-    max-width: 300px;
-    font-size:40px;
-    margin-top: 50px;
-}
-
-.card--content{
-    margin:0;
-    padding:0;
 }

@@ -11,16 +11,16 @@ export default function Controlador() {
 
                 </nav>
                 <div className="right-panel">
-                    <div className="card">
+                    <nav className="card">
                         <h1 className="card-title">Novedades</h1>
 
-                    </div>
-                    <div className="card">
+                    </nav>
+                    <nav className="card">
                         <h1 className="card-title">Registro</h1>
-                    </div>
-                    <div className="card mixed">
-                        <h1 className="card-title mixed">En este momento</h1>
-                    </div>
+                    </nav>
+                    <nav className="card mixed">
+                        <h1 className="card-title">En este momento:</h1>
+                    </nav>
                 </div>
             </div>
             <Footer />
