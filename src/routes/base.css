@@ -1,0 +1,105 @@
+.inputForms {
+    margin-bottom: 0px;
+    padding-left: 15%;
+    padding-right: 60%;
+
+}
+
+.form-control {
+    width:300px;
+}
+
+.row {
+    min-width: 300px;
+}
+
+.btn-primary {
+    background-color: #1b7749;
+    border-color: forestgreen;
+}
+
+.btn-primary:hover {
+    background: #519774;
+    color: black;
+    border-color: black;
+}
+
+.mensaje {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-left: 15%;
+}
+
+.options {
+    display: flex;
+    margin-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 60%;
+    color: black;
+}
+
+.options > p {
+   
+}
+
+.crear {
+    padding-left: 40px;
+}
+
+.manualButton {
+    background-color: #1b7749;
+    border-radius: 4.5px;
+    border: none;
+    text-decoration: none;
+    margin-left: 135px;
+}
+
+.manualButton:hover {
+    background: #519774;
+    color: black;
+    border-color: black;
+}
+
+.cont-panel {
+    display: flex;
+}
+
+.left-panel {
+    background-color: white;
+    border: solid 1px rgb(222 222 222);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(222 222 222);
+    width: 30vh;
+    height: 78vh;
+    margin: 20px 0px 20px 20px;
+}
+
+.card {
+    border: solid 1px rgb(222 222 222);
+    box-shadow: 0px 0px 8px rgb(222 222 222);
+    margin: 25px;
+    min-height: 200px;
+    max-height: 243px;
+    width: 150vh;
+}
+
+.card.mixed {
+    display: flex;
+}
+
+
+.card-title {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card-title.mixed {
+    max-width: 300px;
+    font-size:40px;
+    margin-top: 50px;
+}
+
+.card--content{
+    margin:0;
+    padding:0;
+}
