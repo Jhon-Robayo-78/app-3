@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\routes"
   ],
+  "SelectedNode": "\\src\\routes\\base.css",
   "PreviewInSolutionExplorer": false
 }

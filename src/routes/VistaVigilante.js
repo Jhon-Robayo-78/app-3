@@ -1,7 +1,7 @@
 import ToHomeNav from "../components/ToHomeNavbar.js"
 import Footer from "../components/Footer.js"
 
-function ApartadoV(){
+function Vigilante(){
     return(
         <div className="contenedorPadre">
             <ToHomeNav/>
@@ -48,4 +48,4 @@ function ApartadoV(){
 
 }
 
-export default ApartadoV;
+export default Vigilante;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import HomeNav from "../components/ToHomeNavbar.js"
 import Footer from "../components/Footer.js"
-import "./login.css"
+import "./base.css"
 
 export default function Login() {
     return (
