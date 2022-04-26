@@ -7,15 +7,22 @@ class Formulario extends React.Component{
     return(
         <div className="container">
             
-            <h1>Registro</h1>
-        <form >    
+            <h1 className="mensaje">Registro</h1>
             
+            <form className="inputForms">    
+                <h4>Afiliación UTB</h4>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="visitante">Visitante</option>
+                    <option value="Media">Estudiante</option>
+                    <option value="Profesor">Profesor</option>
+                    <option value="Administrativo">Administrativo</option>
+                    <option value="Vigilante">Vigilante</option>
+                </select>
             <div className="input">
                 <span className="input">Nombre</span>
                 <input
                     type="text"  
                     className="form-control" 
-                    placeholder="nombre"
                     name="nombre" />
             </div>
             
@@ -24,51 +31,46 @@ class Formulario extends React.Component{
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="apellido"
                     name="apellido"/>
             </div>
             
             <div className="input">
-                <span className="input">Cedula</span>
+                <span className="input">Cédula</span>
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="cedula"
                     name="cedula" />
             </div>
             
             <div className="input">
-                <span className="input">Email</span>
+                <span className="input">Número de teléfono</span>
                 <input 
                     type="text" 
                     className="form-control" 
-                    placeholder="email" 
-                    name="email" />
+                    name="numero" />
             </div>
             
             <div className="input">
-                <span className="input">Numero de telefono</span>
+                <span className="input">Correo electrónico</span>
                 <input 
                     type="text" 
                     className="form-control" 
-                    placeholder="numero" 
-                    name="numero" />
+                    name="correo" />
             </div>
             <div className="input">
-                <span className="input">Placa</span>
+                <span className="input">Contraseña</span>
                 <input 
                     type="text" 
                     className="form-control" 
-                    placeholder="placa" 
-                    name="placa"/>
+                    name="contrasena"/>
             </div>
             <div>
                 <button type="submit" className="btn btn-primary"> Añadir </button>
             </div>
            
 
-        </form>
-        <Footer/>
+            </form>
+            <Footer/>
         </div>
     );}
 

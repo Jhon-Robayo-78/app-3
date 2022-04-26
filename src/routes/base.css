@@ -1,3 +1,7 @@
+body {
+    font-family: "Inter";
+    background-color: mintcream;
+}
 .inputForms {
     margin-bottom: 0px;
     padding-left: 15%;
@@ -7,6 +11,14 @@
 
 .form-control {
     width:300px;
+}
+
+.form-label {
+    margin-top: 10px;
+}
+
+.form-select {
+    margin-top: 10px;
 }
 
 .row {
@@ -25,6 +37,7 @@
 }
 
 .mensaje {
+    font-weight: 700;
     margin-top: 100px;
     margin-bottom: 0px;
     padding-left: 15%;
@@ -39,7 +52,9 @@
 }
 
 .options > p {
-   
+    margin-top: 10px;
+    margin-left: 80px;
+    padding: 0px;
 }
 
 .crear {
@@ -74,22 +89,138 @@
     margin: 20px 0px 20px 20px;
 }
 
+.left-panel > table {
+    margin-left: 10px;
+    overflow-y: scroll;
+    max-height: 50vh;
+    display: block;
+}
+
 .card {
+    border: solid 1px rgb(222 222 222);
+    box-shadow: 0px 0px 8px rgb(222 222 222);
+    margin: 25px auto 25px auto;
+    min-height: 200px;
+    max-height: 280px;
+    justify-content: space-between;
+    align-content: center;
+    width: 150vh;
+}
+
+.cont-card {
+    background-color: white;
+    border: solid 1px rgb(222 222 222);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px rgb(222 222 222);
+    margin: 40px;
+    min-height: 222px;
+    max-height: 400px;
+    justify-content: space-between;
+    align-content: center;
+    width: 145vh;
+}
+
+.cont-card.dinamic {
+    padding-top: 40px;
+    display: flex;
+    box-shadow: none;
+    justify-content: center;
+}
+
+.cont-card.dinamic > div > p {
+    max-width: 160px;
+    text-align: center;
+}
+
+.cont-card.dinamic > div > h1 {
+    margin: 20px;
+    padding: 0;
+}
+
+.cont-card > table {
+    margin-left: 10px;
+    overflow-x: scroll;
+    max-width: 142vh;
+    display: block;
+}
+
+.row-title {
+    font-weight: 600;
+}
+
+
+.card-title {
+    font-weight:600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.databox {
+
+}
+
+/*.container {
     border: solid 1px rgb(222 222 222);
     box-shadow: 0px 0px 8px rgb(222 222 222);
     margin: 25px;
     min-height: 200px;
     max-height: 243px;
     width: 150vh;
-}
+}*/
 
-.card.mixed {
+.dinamic-card {
+    
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    margin: 30px;
 }
 
+.wrap-card {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 30px;
+}
 
-.card-title {
+.confirmation-button {
     margin-left: 20px;
-    margin-top: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    background-color: #63ce9b;
+    border: solid 1px #1b7749;
+    box-shadow: 0px 0px 8px rgb(222, 222, 222);
+}
+
+.input-title {
+    margin-left: 50px;
+}
+
+.notification-button {
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    background-color: #63ce9b;
+    border: solid 1px #1b7749;
+    box-shadow: 0px 0px 8px rgb(222, 222, 222);
+}
+
+.row.g-3 {
+    padding-left:40px;
+    padding-bottom:5px; 
+}
+
+.register--form {
+    background-color: rgb(243, 243, 241);
+}
+
+.centered {
+    display: grid;
+    margin: 25px 25% 0px 25%;
+    justify-content: center;
+}
+
+.P404 {
+    text-align: center;
 }

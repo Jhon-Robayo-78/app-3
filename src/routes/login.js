@@ -8,7 +8,7 @@ export default function Login() {
         <main>
             <HomeNav />
             <h1 className="mensaje">Hola de nuevo</h1>
-            <p>Por favor, digite su informacion</p>
+            <p className="index--text">Por favor, digite su información</p>
             <div className="inputForms">
                 
                 <div class="mb-3 row">
@@ -18,13 +18,13 @@ export default function Login() {
                 </div>
                 <div class="mb-3 row">
                     <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="Contrasena" />
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" />
                     </div>
                 </div>
                 <input class="btn btn-primary" type="submit" value="Ingresar" />                
             </div>
             <div className="options">
-                <p><Link style={{ textDecoration: 'none' }} to="/recuperar_contrasena">Olvide mi contrasena</Link></p>
+                <p><Link style={{ textDecoration: 'none' }} to="/recuperar_contrasena">Olvidé mi contrase}a</Link></p>
                 <p className="crear"><Link  to="/crear_cuenta" style={{ textDecoration: 'none' }}>Crear cuenta</Link></p>
 
             </div>

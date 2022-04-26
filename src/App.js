@@ -45,13 +45,13 @@ class App extends React.Component {
             <Navbar />
             <main>
                 <h2>Bienvenido al Sistema de Control de Acceso Vehicular</h2>
-                <p>Con el uso del SCAV se ha mejorado la seguridad,
-                    integridad y organizacion del campus de la Universidad
-                    Tecnologica de Bolivar en cuanto al registro de vehiculos.
-                    Con este sistema, y una base de datos con informacion detallada 
-                    de cada vehiculo que sale y entra al campus, ademas de esto, es
-                    posible encontrar estacionamientos libres y notificar al dueno
-                    del vehiculo si es necesario.
+                <p className="index--text">Con el uso del SCAV se ha mejorado la seguridad,
+                    integridad y organización del campus de la Universidad
+                    Tecnológica de Bolívar en cuanto al registro de vehículos.
+                    Con este sistema, y una base de datos con información detallada 
+                    de cada vehículo que sale y entra al campus es
+                    posible encontrar estacionamientos libres y notificar al dueño
+                    del vehículo de cualquier evento si es necesario.
                 </p>
             </main>
             <Footer />

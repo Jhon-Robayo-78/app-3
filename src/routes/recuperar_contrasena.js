@@ -9,15 +9,15 @@ const linkStyle = {
     textDecoration: "none",
 };
 
-export default function Login() {
+export default function Recuperar() {
     return (
         <div>
             <ToHomeNav />
 
-            <h1 className="mensaje">Recuperacion</h1>
-            <p>Si tiene una cuenta de correo ya registrada, recibira un correo de recuperacion</p>
+            <h1 className="mensaje">Recuperación</h1>
+            
             <div className="inputForms">
-
+                <p>Si tiene una cuenta de correo ya registrada, recibirá un correo de recuperación</p>
                 <div class="mb-3 row">
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="email" placeholder="Email" />
@@ -27,7 +27,7 @@ export default function Login() {
                     display: "flex",
                 }}>
                     <input class="btn btn-primary" type="submit" value="Enviar correo" />
-                    <button className="manualButton"><Link to="/login" style={linkStyle} >Atras</Link></button>
+                    <button className="manualButton"><Link to="/login" style={linkStyle} >Atrás</Link></button>
                 </div>
 
             </div>  
